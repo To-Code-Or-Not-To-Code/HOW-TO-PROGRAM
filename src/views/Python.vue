@@ -60,6 +60,9 @@ onBeforeUnmount(() => {
                 enviroment, so that you can start coding!
             </p>
             <a href="https://www.python.org/downloads/" class="link">OFFICIAL SITE FOR PYTHON DOWNLOAD</a>
+            <p class="center">What it looks like</p>
+            <p class="center">↓</p>
+            <img src="../assets/images/python/Python Download Page.png" width="50%" />
             <video></video>
         </main>
 
@@ -111,5 +114,14 @@ svg.blob-motion {
 
 .text-morph {
     position: static;
+}
+
+img {
+    display: flex;
+    justify-self: center;
+}
+
+.center {
+    text-align: center;
 }
 </style>
