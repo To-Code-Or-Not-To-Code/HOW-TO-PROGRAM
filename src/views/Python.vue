@@ -109,4 +109,7 @@ svg.blob-motion {
     text-decoration: none;
 }
 
+.text-morph {
+    position: static;
+}
 </style>

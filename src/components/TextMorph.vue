@@ -91,7 +91,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <span id="container" :class="props.class" :style="props.style">
+    <span id="container" class="text-morph" :class="props.class" :style="props.style">
         <span id="text1" ref="text1Ref"></span>
         <span id="text2" ref="text2Ref"></span>
     </span>
